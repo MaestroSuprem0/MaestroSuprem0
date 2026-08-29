@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-label="Terminal de perfil">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#22d3ee"/>
+      <stop offset="50%"  stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0b1030"/>
+      <stop offset="100%" stop-color="#070716"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,monospace; }
+      .lbl  { fill:#7dd3fc; font-size:13px; letter-spacing:.5px; }
+      .val  { fill:#e9d5ff; font-size:13px; }
+      .key  { fill:#22d3ee; font-size:13px; }
+      .dim  { fill:#4c6a9c; font-size:12px; }
+      .hdr  { fill:#a855f7; font-size:14px; letter-spacing:2px; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:.55} 50%{opacity:1} }
+      .caret { animation: blink 1.05s steps(1) infinite; }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      .dot { animation: twinkle 4s ease-in-out infinite; }
+      @keyframes twinkle { 0%,100%{opacity:.25} 50%{opacity:1} }
+    </style>
+  </defs>
+
+  <rect x="6" y="6" width="888" height="458" rx="18" fill="url(#bg)"/>
+  <rect x="6" y="6" width="888" height="458" rx="18" fill="none" stroke="url(#edge)" stroke-width="2" filter="url(#glow)" class="pulse"/>
+
+  <!-- barra de titulo -->
+  <circle cx="40"  cy="40" r="7" fill="#ff5f57"/>
+  <circle cx="64"  cy="40" r="7" fill="#febc2e"/>
+  <circle cx="88"  cy="40" r="7" fill="#28c840"/>
+  <text class="mono dim" x="866" y="45" text-anchor="end">TU-CORREO@dominio.com</text>
+  <line x1="24" y1="62" x2="876" y2="62" stroke="#1e3a5f" stroke-width="1"/>
+
+  <!-- panel izquierdo -->
+  <text class="mono hdr" x="42" y="94">VISUAL.MAP</text>
+  <rect x="34" y="106" width="392" height="330" rx="10" fill="none" stroke="#22d3ee" stroke-width="1.5" filter="url(#softglow)" opacity=".8"/>
+  <g fill="#e879f9">
+    <circle class="dot" cx="76" cy="132" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="92" cy="132" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="108" cy="132" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="140" cy="132" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="156" cy="132" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="172" cy="132" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="236" cy="132" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="252" cy="132" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="268" cy="132" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="300" cy="132" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="316" cy="132" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="332" cy="132" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="348" cy="132" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="364" cy="132" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="60" cy="148" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="76" cy="148" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="124" cy="148" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="140" cy="148" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="252" cy="148" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="268" cy="148" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="300" cy="148" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="316" cy="148" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="364" cy="148" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="396" cy="148" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="60" cy="164" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="108" cy="164" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="124" cy="164" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="156" cy="164" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="188" cy="164" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="204" cy="164" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="220" cy="164" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="236" cy="164" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="268" cy="164" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="284" cy="164" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="300" cy="164" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="316" cy="164" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="332" cy="164" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="380" cy="164" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="396" cy="164" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="60" cy="180" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="156" cy="180" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="172" cy="180" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="188" cy="180" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="220" cy="180" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="236" cy="180" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="180" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="300" cy="180" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="364" cy="180" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="380" cy="180" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="92" cy="196" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="108" cy="196" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="140" cy="196" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="156" cy="196" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="172" cy="196" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="188" cy="196" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="220" cy="196" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="196" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="268" cy="196" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="284" cy="196" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="364" cy="196" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="396" cy="196" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="60" cy="212" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="92" cy="212" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="124" cy="212" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="140" cy="212" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="156" cy="212" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="204" cy="212" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="220" cy="212" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="252" cy="212" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="268" cy="212" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="380" cy="212" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="60" cy="228" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="76" cy="228" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="92" cy="228" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="108" cy="228" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="140" cy="228" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="204" cy="228" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="284" cy="228" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="316" cy="228" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="348" cy="228" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="364" cy="228" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="396" cy="228" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="60" cy="244" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="124" cy="244" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="156" cy="244" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="204" cy="244" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="252" cy="244" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="268" cy="244" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="284" cy="244" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="300" cy="244" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="316" cy="244" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="332" cy="244" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="348" cy="244" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="60" cy="260" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="76" cy="260" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="92" cy="260" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="108" cy="260" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="124" cy="260" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="140" cy="260" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="156" cy="260" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="188" cy="260" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="236" cy="260" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="260" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="268" cy="260" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="284" cy="260" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="316" cy="260" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="332" cy="260" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="364" cy="260" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="396" cy="260" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="92" cy="276" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="108" cy="276" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="156" cy="276" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="204" cy="276" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="220" cy="276" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="276" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="316" cy="276" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="348" cy="276" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="364" cy="276" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="380" cy="276" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="396" cy="276" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="92" cy="292" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="140" cy="292" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="156" cy="292" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="172" cy="292" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="204" cy="292" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="236" cy="292" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="252" cy="292" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="268" cy="292" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="300" cy="292" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="380" cy="292" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="60" cy="308" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="76" cy="308" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="92" cy="308" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="108" cy="308" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="172" cy="308" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="188" cy="308" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="236" cy="308" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="252" cy="308" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="284" cy="308" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="300" cy="308" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="316" cy="308" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="348" cy="308" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="364" cy="308" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="380" cy="308" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="396" cy="308" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="60" cy="324" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="76" cy="324" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="108" cy="324" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="124" cy="324" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="140" cy="324" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="156" cy="324" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="188" cy="324" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="220" cy="324" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="252" cy="324" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="268" cy="324" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="284" cy="324" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="332" cy="324" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="348" cy="324" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="92" cy="340" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="108" cy="340" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="124" cy="340" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="172" cy="340" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="188" cy="340" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="220" cy="340" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="236" cy="340" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="268" cy="340" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="316" cy="340" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="348" cy="340" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="364" cy="340" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="380" cy="340" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="76" cy="356" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="92" cy="356" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="108" cy="356" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="172" cy="356" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="188" cy="356" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="220" cy="356" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="356" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="268" cy="356" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="284" cy="356" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="316" cy="356" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="332" cy="356" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="380" cy="356" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="60" cy="372" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="76" cy="372" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="92" cy="372" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="108" cy="372" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="124" cy="372" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="140" cy="372" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="188" cy="372" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="204" cy="372" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="372" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="268" cy="372" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="284" cy="372" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="300" cy="372" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="316" cy="372" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="332" cy="372" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="348" cy="372" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="380" cy="372" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="396" cy="372" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="92" cy="388" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="108" cy="388" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="124" cy="388" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="140" cy="388" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="156" cy="388" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="172" cy="388" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="188" cy="388" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="204" cy="388" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="236" cy="388" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="252" cy="388" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="300" cy="388" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="316" cy="388" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="332" cy="388" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="364" cy="388" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="396" cy="388" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="60" cy="404" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="76" cy="404" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="124" cy="404" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="140" cy="404" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="156" cy="404" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="172" cy="404" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="188" cy="404" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="220" cy="404" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="268" cy="404" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="300" cy="404" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="316" cy="404" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="364" cy="404" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="396" cy="404" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="60" cy="420" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="76" cy="420" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="124" cy="420" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="156" cy="420" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="172" cy="420" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="236" cy="420" r="2.1" style="animation-delay:-1.6s"/>
+    <circle class="dot" cx="252" cy="420" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="268" cy="420" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="300" cy="420" r="2.1" style="animation-delay:-0.0s"/>
+    <circle class="dot" cx="332" cy="420" r="2.1" style="animation-delay:-3.2s"/>
+    <circle class="dot" cx="348" cy="420" r="2.1" style="animation-delay:-0.8s"/>
+    <circle class="dot" cx="364" cy="420" r="2.1" style="animation-delay:-2.4s"/>
+    <circle class="dot" cx="380" cy="420" r="2.1" style="animation-delay:-0.0s"/>
+  </g>
+
+  <!-- panel derecho -->
+  <text class="mono hdr" x="470" y="94">SYSTEM.INFO</text>
+  <rect x="466" y="106" width="150" height="24" rx="5" fill="#a855f7" opacity=".22"/>
+  <text class="mono" x="476" y="123" fill="#e9d5ff" font-size="13">TU-USUARIO</text>
+
+  <text class="mono lbl" x="470" y="156">Subject</text>
+  <text class="mono dim" x="560" y="156">......</text>
+  <text class="mono val" x="620" y="156">Tu Nombre</text>
+
+  <text class="mono lbl" x="470" y="180">Role</text>
+  <text class="mono dim" x="560" y="180">......</text>
+  <text class="mono val" x="620" y="180">Full-Stack Dev</text>
+
+  <text class="mono lbl" x="470" y="204">Origin</text>
+  <text class="mono dim" x="560" y="204">......</text>
+  <text class="mono val" x="620" y="204">Tu Ciudad, Pais</text>
+
+  <text class="mono lbl" x="470" y="228">Education</text>
+  <text class="mono dim" x="560" y="228">......</text>
+  <text class="mono val" x="620" y="228">Tu Universidad</text>
+
+  <text class="mono lbl" x="470" y="252">Status</text>
+  <text class="mono dim" x="560" y="252">......</text>
+  <text class="mono val" x="620" y="252">Building QESE<tspan class="caret" fill="#22d3ee"> _</tspan></text>
+
+  <text class="mono hdr" x="470" y="292">TOOLCHAIN</text>
+  <text class="mono key" x="470" y="318">Core.Lang</text>
+  <text class="mono val" x="620" y="318">Python · TypeScript</text>
+  <text class="mono key" x="470" y="340">Core.Front</text>
+  <text class="mono val" x="620" y="340">React · Next.js</text>
+  <text class="mono key" x="470" y="362">Core.Back</text>
+  <text class="mono val" x="620" y="362">FastAPI · Node</text>
+  <text class="mono key" x="470" y="384">Core.Data</text>
+  <text class="mono val" x="620" y="384">PostgreSQL · Redis</text>
+  <text class="mono key" x="470" y="406">Core.Infra</text>
+  <text class="mono val" x="620" y="406">Docker · Vercel</text>
+
+  <line x1="466" y1="424" x2="866" y2="424" stroke="#1e3a5f"/>
+  <text class="mono dim" x="470" y="446">&gt; github.com/TU-USUARIO</text>
+</svg>
