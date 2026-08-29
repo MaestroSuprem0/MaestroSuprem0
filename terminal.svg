@@ -296,7 +296,7 @@
 
   <text class="mono lbl" x="470" y="156">Subject</text>
   <text class="mono dim" x="560" y="156">......</text>
-  <text class="mono val" x="620" y="156">Tu Nombre</text>
+  <text class="mono val" x="620" y="156">Severiano Felix Sopla</text>
 
   <text class="mono lbl" x="470" y="180">Role</text>
   <text class="mono dim" x="560" y="180">......</text>
@@ -304,11 +304,11 @@
 
   <text class="mono lbl" x="470" y="204">Origin</text>
   <text class="mono dim" x="560" y="204">......</text>
-  <text class="mono val" x="620" y="204">Tu Ciudad, Pais</text>
+  <text class="mono val" x="620" y="204">Lima, Peru</text>
 
   <text class="mono lbl" x="470" y="228">Education</text>
   <text class="mono dim" x="560" y="228">......</text>
-  <text class="mono val" x="620" y="228">Tu Universidad</text>
+  <text class="mono val" x="620" y="228">UNMSM</text>
 
   <text class="mono lbl" x="470" y="252">Status</text>
   <text class="mono dim" x="560" y="252">......</text>
