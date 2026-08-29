@@ -9,7 +9,7 @@
 
 <!-- ====== TERMINAL NEON (SVG propio) ====== -->
 <p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="system info"/>
+  <img src="./assets/terminal.svg?v=2" width="100%" alt="system info"/>
 </p>
 
 <!-- ====== SOBRE MI ====== -->
@@ -27,7 +27,7 @@
 
 <!-- ====== MOLECULA (SVG propio) ====== -->
 <p align="center">
-  <img src="./assets/molecule.svg" width="100%" alt="molecule"/>
+  <img src="./assets/molecule.svg?v=2" width="100%" alt="molecule"/>
 </p>
 
 <!-- ====== STATS ====== -->
