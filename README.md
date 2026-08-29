@@ -2,7 +2,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a855f7,100:e879f9&height=180&section=header&text=TU-USUARIO&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=32"/>
 
 <p align="center">
-  <a href="https://github.com/TU-USUARIO">
+  <a href="https://github.com/MaestroSuprem0">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=520&lines=Full-Stack+Developer;Construyendo+QESE+%2F+Magic+Hands;Siempre+aprendiendo+algo+nuevo"/>
   </a>
 </p>
