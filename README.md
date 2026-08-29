@@ -1,5 +1,5 @@
-<!-- ====== BANNER ====== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:a855f7,100:e879f9&height=180&section=header&text=MAESTROSUPREM0&fontColor=ffffff&fontSize=46&animation=fadeIn&fontAlignY=32"/>
+<!-- ====== BANNER (SVG propio) ====== -->
+<img width="100%" src="./assets/banner.svg?v=1" alt="banner"/>
 
 <p align="center">
   <a href="https://github.com/MaestroSuprem0">
