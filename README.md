@@ -25,18 +25,14 @@
   <code>Python</code> · <code>Jupyter</code> · <code>LaTeX</code> · <code>Git</code> · <code>GitHub</code> · <code>Linux</code> · <code>VS Code</code> · <code>Anaconda</code>
 </p>
 
+<!-- ====== MOLECULA (SVG propio) ====== -->
+<p align="center">
+  <img src="./assets/molecule.svg" width="100%" alt="molecule"/>
+</p>
+
 <!-- ====== STATS ====== -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MaestroSuprem0&show_icons=true&count_private=true&hide_border=false&border_color=22d3ee&bg_color=00000000&title_color=e879f9&icon_color=22d3ee&text_color=c9d1d9&border_radius=12"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaestroSuprem0&layout=compact&langs_count=8&hide_border=false&border_color=a855f7&bg_color=00000000&title_color=22d3ee&text_color=c9d1d9&border_radius=12"/>
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=MaestroSuprem0&hide_border=false&border=a855f7&background=00000000&stroke=22d3ee&ring=e879f9&fire=e879f9&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=4c6a9c&currStreakNum=ffffff&sideNums=ffffff&border_radius=12"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MaestroSuprem0&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6"/>
 </div>
 
 <!-- ====== SNAKE (requiere el workflow) ====== -->
