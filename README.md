@@ -22,7 +22,7 @@
 <!-- ====== STACK ====== -->
 <h3 align="center">⚡ Stack</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,jupyter,latex,git,github,linux,vscode,anaconda&theme=dark&perline=8"/>
+  <code>Python</code> · <code>Jupyter</code> · <code>LaTeX</code> · <code>Git</code> · <code>GitHub</code> · <code>Linux</code> · <code>VS Code</code> · <code>Anaconda</code>
 </p>
 
 <!-- ====== STATS ====== -->
@@ -46,14 +46,10 @@
 
 <!-- ====== REPOS DESTACADOS ====== -->
 <h3 align="center">🚀 Proyectos</h3>
-<div align="center">
-  <a href="https://github.com/MaestroSuprem0/Pinchdraw_UNMSM">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MaestroSuprem0&repo=Pinchdraw_UNMSM&bg_color=0b1030&border_color=22d3ee&title_color=e879f9&icon_color=22d3ee&text_color=c9d1d9&border_radius=12"/>
-  </a>
-  <a href="https://github.com/MaestroSuprem0/Atomic_Hands">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MaestroSuprem0&repo=Atomic_Hands&bg_color=0b1030&border_color=a855f7&title_color=22d3ee&icon_color=e879f9&text_color=c9d1d9&border_radius=12"/>
-  </a>
-</div>
+<p align="center">
+  🔗 <b><a href="https://github.com/MaestroSuprem0/Pinchdraw_UNMSM">Pinchdraw_UNMSM</a></b><br/>
+  🔗 <b><a href="https://github.com/MaestroSuprem0/Atomic_Hands">Atomic_Hands</a></b>
+</p>
 
 <!-- ====== CONTACTO ====== -->
 <h3 align="center">📡 Contacto</h3>
