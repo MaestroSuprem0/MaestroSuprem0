@@ -46,7 +46,7 @@
   <text x="780" y="228" class="mono value">UNMSM - Quimica e Ing. Quimica</text>
 
   <text x="600" y="254" class="mono label">Status    ......</text>
-  <text x="780" y="254" class="mono value" style="fill:#22d3ee;">Building Pinchdraw_UNMSM / Atomic_Hands</text>
+  <text x="780" y="254" class="mono value" style="fill:#22d3ee;">Building Pinchdraw_UNMSM / Explosive_Lab</text>
 
   <line x1="600" y1="272" x2="1160" y2="272" stroke="#312a5e" stroke-width="1"/>
 
